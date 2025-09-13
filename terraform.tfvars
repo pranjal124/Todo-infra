@@ -1,0 +1,14 @@
+aws_region = "ap-south-1"
+vpc_name = "taskapp-vpc"
+ecs_cluster_name = "todo-ecs-cluster"
+ecs_task_family = "todo-task-family"
+ecs_task_cpu = "256"
+ecs_task_memory = "512"
+container_name = "todo-app"
+container_image = "<your_ecr_image_url>"
+container_port = 5000
+ecs_service_name = "todo-ecs-service"
+ecs_service_desired_count = 1
+ecs_service_sg_id = "sg-xxxxxxxx"
+alb_name = "todo-alb"
+alb_sg_id = "sg-yyyyyyyy"

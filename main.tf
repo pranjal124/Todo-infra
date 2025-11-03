@@ -9,7 +9,7 @@
   required_version = ">= 1.0.0"
 
   backend "s3" {
-    bucket         = "todo"
+    bucket         = "todo-terraform-pranjal"
     key            = "todo-infra/terraform.tfstate"
   }
 }

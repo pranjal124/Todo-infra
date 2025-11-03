@@ -1,4 +1,5 @@
-terraform {
+
+0terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
@@ -8,7 +9,7 @@ terraform {
   required_version = ">= 1.0.0"
 
   backend "s3" {
-    bucket         = "<your-tf-state-bucket>"
+    bucket         = "todo"
     key            = "todo-infra/terraform.tfstate"
   }
 }
